@@ -9,6 +9,17 @@
 /* Cami Color Palette */
 
 :root {
+  --main-tan: rgba(206, 175, 164,1);
+  --main-light-yellow: rgba(242, 226, 163,1);
+  --main-light-orange: rgba(250, 208, 130,1);
+
+
+  --main-light-yellow-t: rgba(242, 226, 163,0.6);
+  --main-light-orange-t: rgba(250, 208, 130,0.8);
+
+
+
+
   --main-peach: rgba(231, 151, 127,1);
   --main-yellow: rgba(249, 201, 88,1);
   --main-brown: rgba(162, 96, 87,1);
@@ -319,22 +330,23 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   padding-top: 120px;
   height: 70vh;
-  background-image: linear-gradient(180deg,var(--main-peach-t) 0%,var(--main-yellow-t) 100%),url("../img/after-care-1.jpg");
+  background-image: linear-gradient(180deg,var(--main-light-orange-t) 0%,var(--main-light-orange-t) 100%),url("../img/after-care-1.jpg");
   background-size: cover;
 }
 
 #hero img {
-  width: 70%;
+  width: 70%; 
   border-radius: 300px;
 }
 
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 56px;
-  color: #5a7869;
-  font-family: "Raleway", sans-serif;
+  color: var(--main-mauve);
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.12em;
 }
 #hero h2 {
   color: #484848;
@@ -342,7 +354,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.12em;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -463,7 +476,7 @@ section {
 # quotes
 --------------------------------------------------------------*/
 .quotes {
-  background: var(--main-green);
+  background: var(--main-tan);
   padding: 10px 0;
   text-align: center;
   color: #fff;
@@ -697,6 +710,7 @@ section {
 }
 .services .title a {
   color: #111;
+  font-size: 25px;
 }
 .services .description {
   font-size: 15px;
@@ -890,7 +904,7 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio {
-  background-image: linear-gradient(180deg,var(--main-green-t) 0%,rgba(197, 74, 3,.6) 100%);
+  background-image: linear-gradient(180deg,var(--main-light-orange-t) 0%,rgba(197, 74, 3,.6) 100%);
   background-size: contain;
   background-repeat: no-repeat;
 }
