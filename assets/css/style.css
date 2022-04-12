@@ -507,8 +507,6 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../img/Brandwell/socialite-squiggle.png");
-  background-size: cover;
 }
 
 .about::before {
@@ -892,7 +890,7 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio {
-  background-image: linear-gradient(180deg,var(--main-green-t) 0%,rgba(197, 74, 3,.6) 100%),url("../img/Brandwell/socialite-hero.png");
+  background-image: linear-gradient(180deg,var(--main-green-t) 0%,rgba(197, 74, 3,.6) 100%);
   background-size: contain;
   background-repeat: no-repeat;
 }
