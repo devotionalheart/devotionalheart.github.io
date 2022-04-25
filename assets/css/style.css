@@ -558,7 +558,7 @@ section {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-color: rgba(231, 151, 127, 0.75);
+  background-color: #fdf6e4;
 }
 
 .about .content h3 {
@@ -787,7 +787,7 @@ section {
   background: #3b0256;
   text-align: center;
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 0 50%;
 }
 .grid figure img {
   position: relative;
@@ -1013,8 +1013,8 @@ figure.effect-sadie:hover p {
 .portfolio {
   background-image: linear-gradient(
     180deg,
-    var(--main-orange-t) 0%,
-    rgba(197, 74, 3, 0.6) 100%
+    rgba(197, 74, 3, 0.6) 0%,
+    var(--main-brown) 100%
   );
   background-size: contain;
   background-repeat: no-repeat;
