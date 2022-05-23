@@ -216,7 +216,7 @@ h6 {
 }
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 1rem;
 }
 .navbar .dropdown ul a i {
   font-size: 12px;
@@ -605,7 +605,7 @@ section {
 .about .content .btn-learn-more {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 1rem;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
@@ -664,7 +664,7 @@ section {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
   font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   color: #484848;
 }
 .counts .content .count-box a {
@@ -1047,7 +1047,7 @@ figure.effect-sadie:hover p {
   cursor: pointer;
   display: inline-block;
   padding: 8px 15px 10px 15px;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
@@ -1108,7 +1108,7 @@ figure.effect-sadie:hover p {
 }
 .portfolio .portfolio-wrap .portfolio-info p {
   color: rgba(255, 255, 255, 0.7);
-  font-size: 14px;
+  font-size: 1rem;
   text-transform: uppercase;
   padding: 0;
   margin: 0;
@@ -1261,7 +1261,7 @@ figure.effect-sadie:hover p {
 }
 .team .member .member-info p {
   font-style: italic;
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 26px;
   color: #777777;
 }
@@ -1312,7 +1312,7 @@ figure.effect-sadie:hover p {
   color: #222222;
   text-align: center;
   line-height: 20px;
-  font-size: 14px;
+  font-size: 1rem;
 }
 .pricing .box ul li {
   padding-bottom: 16px;
@@ -1336,7 +1336,7 @@ figure.effect-sadie:hover p {
   border-radius: 50px;
   border: 2px solid var(--main-mauve);
   color: var(--main-mauve);
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -1392,7 +1392,7 @@ figure.effect-sadie:hover p {
   background-image: linear-gradient(
     180deg,
     rgba(197, 74, 3, 0.5) 0%,
-    rgba(162, 96, 87, 0.8) 100%
+    var(--offwhite) 100%
   );
 }
 
@@ -1406,46 +1406,10 @@ figure.effect-sadie:hover p {
   color: #222222;
 }
 .contact .contact-about p {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 24px;
   font-family: "Raleway", sans-serif;
   color: #888;
-}
-.contact .social-links {
-  padding-bottom: 20px;
-}
-.contact .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #fff;
-  color: var(--main-mauve);
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-  border: 1px solid var(--main-mauve);
-}
-.contact .social-links a:hover {
-  background: var(--main-mauve);
-  color: #fff;
-}
-.contact .info {
-  color: #444444;
-}
-.contact .info i {
-  font-size: 32px;
-  color: var(--main-mauve);
-  float: left;
-  line-height: 1;
-}
-.contact .info p {
-  padding: 0 0 10px 42px;
-  line-height: 28px;
-  font-size: 14px;
 }
 .contact .php-email-form .error-message {
   display: none;
@@ -1491,7 +1455,7 @@ figure.effect-sadie:hover p {
 .contact .php-email-form textarea {
   border-radius: 2em;
   box-shadow: none;
-  font-size: 14px;
+  font-size: 1rem;
   padding: 10px 15px;
 }
 .contact .php-email-form input:focus,
@@ -1551,7 +1515,7 @@ figure.effect-sadie:hover p {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 14px;
+  font-size: 1rem;
 }
 @media (max-width: 992px) {
   .breadcrumbs ol {
@@ -1586,21 +1550,39 @@ figure.effect-sadie:hover p {
   background: #a16e87;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 0;
-  color: #222222;
-  font-size: 14px;
+  color: #f1f1f1;
+  font-size: 1rem;
+  text-align: center;
 }
 #footer .credits {
   font-size: 13px;
   padding-top: 5px;
-  color: #222222;
+  color: #f1f1f1;
 }
 #footer .footer-links a {
-  color: #222222;
+  color: #f1f1f1;
   padding-left: 15px;
+  font-size: 1.2rem;
 }
 #footer .footer-links a:first-child {
   padding-left: 0;
 }
-#footer .footer-links a:hover {
-  color: #fa6384;
+
+#footer .social-links {
+  display: flex;
+  justify-content: center;
+}
+
+#footer a:hover {
+  color: var(--main-light-orange);
+}
+
+#footer i {
+  font-size: 2.5rem;
+  padding: 1vw;
+}
+
+.info {
+  display: flex;
+  text-align: center;
 }
