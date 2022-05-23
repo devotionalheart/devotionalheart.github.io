@@ -8,6 +8,7 @@
 /* Cami Color Palette */
 
 :root {
+  /* v2.0 */
   --main-tan: rgba(206, 175, 164, 1);
   --main-light-yellow: rgba(242, 226, 163, 1);
   --main-light-orange: rgba(250, 208, 130, 1);
@@ -15,6 +16,8 @@
   --main-light-yellow-t: rgba(242, 226, 163, 0.6);
   --main-light-orange-t: rgba(250, 208, 130, 0.8);
 
+
+  /* v1.0 */
   --main-peach: rgba(231, 151, 127, 1);
   --main-yellow: rgba(249, 201, 88, 1);
   --main-brown: rgba(162, 96, 87, 1);
@@ -131,8 +134,9 @@ h6 {
 }
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #840000;
+  color: rgb(185, 149, 62);
   text-decoration: none;
+  text-shadow: 2px 2px #ffffffa6;
 }
 #header .logo img {
   padding: 0;
