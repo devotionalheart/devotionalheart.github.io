@@ -74,7 +74,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: var(--main-mauve);
+  background: var(--main-beige);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -106,22 +106,16 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #logo-img {
-  max-width: 25%;
-  position: absolute;
-  z-index: 999;
-  right: 677px;
-  top: -19px;
+  max-width: 100%;
 }
 
 #header {
   z-index: 997;
   transition: all 0.5s;
-  padding: 18px 0;
   background: var(--offwhite);
 }
 #header.header-scrolled {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 12px 0;
 }
 #header .logo h1 {
   font-size: 50px;
@@ -140,7 +134,7 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 120px;
 }
 
 /*--------------------------------------------------------------
@@ -184,11 +178,11 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: var(--main-mauve);
+  color: var(--main-beige);
 }
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: var(--main-mauve);
+  background: var(--main-beige);
   padding: 8px 25px;
   margin-left: 30px;
   border-radius: 50px;
@@ -227,7 +221,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-  color: var(--main-mauve);
+  color: var(--main-beige);
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -316,7 +310,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: var(--main-mauve);
+  color: var(--main-beige);
 }
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
@@ -345,7 +339,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover > a {
-  color: var(--main-mauve);
+  color: var(--main-beige);
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -398,10 +392,10 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   color: black;
-  border: 2px solid var(--main-mauve);
+  border: 2px solid var(--main-beige);
 }
 #hero .btn-get-started:hover {
-  background: var(--main-mauve);
+  background: var(--main-beige);
   color: #fff;
 }
 .animated-1 {
@@ -494,7 +488,7 @@ section {
   content: "";
   width: 50px;
   height: 2px;
-  background: var(--main-mauve);
+  background: var(--main-beige);
   display: inline-block;
 }
 .section-title h2::before {
@@ -599,7 +593,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: var(--main-mauve);
+  color: var(--main-beige);
   line-height: 1;
 }
 .about .content p:last-child {
@@ -619,10 +613,10 @@ section {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid var(--main-mauve);
+  border: 2px solid var(--main-beige);
 }
 .about .content .btn-learn-more:hover {
-  background: var(--main-mauve);
+  background: var(--main-beige);
   color: #fff;
   text-decoration: none;
 }
@@ -651,7 +645,7 @@ section {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: var(--main-mauve);
+  color: var(--main-beige);
   float: left;
   line-height: 0;
 }
@@ -731,7 +725,7 @@ section {
   z-index: -1;
 }
 .services .icon-box:hover::before {
-  background: var(--main-mauve);
+  background: var(--main-beige);
   right: 0;
   top: 0;
   width: 100%;
@@ -746,7 +740,7 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: var(--main-mauve);
+  background: var(--main-beige);
   transition: all 0.3s ease-in-out;
 }
 .services .icon i {
@@ -776,7 +770,7 @@ section {
   background: #fff;
 }
 .services .icon-box:hover .icon i {
-  color: var(--main-mauve);
+  color: var(--main-beige);
 }
 
 /*--------------------------------------------------------------
@@ -801,7 +795,7 @@ section {
   min-width: 300px;
   max-width: 300px;
   max-height: 300px;
-  background: #3b0256;
+  background: var(--main-light-orange);
   text-align: center;
   cursor: pointer;
   border-radius: 50%;
@@ -861,16 +855,7 @@ figure.effect-sadie figcaption::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-linear-gradient(
-    top,
-    rgba(59, 2, 86, 0) 0%,
-    var(--main-mauve-t) 75%
-  );
-  background: linear-gradient(
-    to bottom,
-    rgba(59, 2, 86, 0) 0%,
-    var(--main-mauve-t) 75%
-  );
+
   content: "";
   opacity: 0;
   -webkit-transform: translate3d(0, 50%, 0);
@@ -916,11 +901,7 @@ figure.effect-sadie:hover p {
 
 .more-services {
   padding-top: 6vh;
-  background-image: linear-gradient(
-    180deg,
-    var(--main-mauve-t) 0%,
-    var(--offwhite) 100%
-  );
+  background-color: var(--offwhite);
 }
 .more-services .card {
   border: 0;
@@ -963,7 +944,7 @@ figure.effect-sadie:hover p {
   text-decoration: underline;
 }
 .more-services .card:hover .card-body {
-  background: var(--main-mauve);
+  background: var(--main-beige);
 }
 .more-services .card:hover .read-more a,
 .more-services .card:hover .card-title,
@@ -999,7 +980,7 @@ figure.effect-sadie:hover p {
   transition: ease-in-out 0.3s;
 }
 .features .icon-box h3 a:hover {
-  color: var(--main-mauve);
+  color: var(--main-beige);
 }
 .features .icon-box:hover {
   background: #eef7fc;
@@ -1064,7 +1045,7 @@ figure.effect-sadie:hover p {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: var(--main-mauve);
+  background: var(--main-beige);
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -1131,7 +1112,7 @@ figure.effect-sadie:hover p {
   transition: 0.3s;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: var(--main-mauve);
+  color: var(--main-beige);
 }
 .portfolio .portfolio-wrap:hover::before {
   opacity: 1;
@@ -1164,13 +1145,13 @@ figure.effect-sadie:hover p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid var(--main-mauve);
+  border: 1px solid var(--main-beige);
 }
 .portfolio-details
   .portfolio-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
-  background-color: var(--main-mauve);
+  background-color: var(--main-beige);
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -1243,7 +1224,7 @@ figure.effect-sadie:hover p {
   line-height: 0;
 }
 .team .member .social a:hover {
-  color: var(--main-mauve);
+  color: var(--main-beige);
 }
 .team .member .social i {
   font-size: 18px;
@@ -1296,7 +1277,7 @@ figure.effect-sadie:hover p {
 }
 .pricing .box h4 {
   font-size: 42px;
-  color: var(--main-mauve);
+  color: var(--main-beige);
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -1323,7 +1304,7 @@ figure.effect-sadie:hover p {
   padding-bottom: 16px;
 }
 .pricing .box ul i {
-  color: var(--main-mauve);
+  color: var(--main-beige);
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1339,8 +1320,8 @@ figure.effect-sadie:hover p {
   display: inline-block;
   padding: 10px 40px 12px 40px;
   border-radius: 50px;
-  border: 2px solid var(--main-mauve);
-  color: var(--main-mauve);
+  border: 2px solid var(--main-beige);
+  color: var(--main-beige);
   font-size: 1rem;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
@@ -1348,14 +1329,14 @@ figure.effect-sadie:hover p {
   transition: 0.3s;
 }
 .pricing .box .btn-buy:hover {
-  background: var(--main-mauve);
+  background: var(--main-beige);
   color: #fff;
 }
 .pricing .recommended {
-  border-color: var(--main-mauve);
+  border-color: var(--main-beige);
 }
 .pricing .recommended .btn-buy {
-  background: var(--main-mauve);
+  background: var(--main-beige);
   color: #fff;
 }
 .pricing .recommended .btn-buy:hover {
@@ -1465,10 +1446,10 @@ figure.effect-sadie:hover p {
 }
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: var(--main-mauve);
+  border-color: var(--main-beige);
 }
 .contact .php-email-form button[type="submit"] {
-  background: var(--main-mauve);
+  background: var(--main-beige);
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1476,7 +1457,7 @@ figure.effect-sadie:hover p {
   border-radius: 50px;
 }
 .contact .php-email-form button[type="submit"]:hover {
-  background: #b3abdf;
+  background: var(--main-light-orange);
 }
 @-webkit-keyframes animate-loading {
   0% {
