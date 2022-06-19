@@ -505,10 +505,10 @@ section {
 # quotes
 --------------------------------------------------------------*/
 .quotes {
-  background: var(--main-tan);
+  background: var(--offwhite);
   padding: 10px 0;
   text-align: center;
-  color: #fff;
+  color: rgba(75, 60, 0, 0.6);
   padding: 3%;
 }
 
